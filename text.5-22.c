@@ -9,16 +9,16 @@ struct Book
 };
 int main()
 {
-	struct Book b1 = { "cÓïÑÔ³ÌĞòÉè¼Æ",55 };
+	struct Book b1 = { "cè¯­è¨€ç¨‹åºè®¾è®¡",55 };
 	strcpy(b1.name,"C++");
 	/*struct Book* pb = &b1;
 	printf("%s\n",pb->name);
 	printf("%d\n",pb->price);
 	printf("%s\n",(*pb).name);
 	printf("%d\n",(*pb).price);*/
-	printf("ÊéÃû£º%s\n", b1.name);
-	/*printf("¼Û¸ñ£º%dÔª\n",b1.price);
+	printf("ä¹¦åï¼š%s\n", b1.name);
+	/*printf("ä»·æ ¼ï¼š%då…ƒ\n",b1.price);
 	b1.price = 15;
-	printf("ĞŞ¸ÄºóµÄ¼Û¸ñ£º%dÔª",b1.price);*/
+	printf("ä¿®æ”¹åçš„ä»·æ ¼ï¼š%då…ƒ",b1.price);*/
 	return 0;
 }
