@@ -5,14 +5,14 @@
 int main()
 {
 	int line = 0;
-	printf("¼ÓÈë±ÈÌØ");
+	printf("åŠ å…¥æ¯”ç‰¹");
 	while (line <= 20000)
 	{
 		line++;
-		printf("ÎÒÒªÅ¬Á¦ÇÃ´úÂë%d\n",line);
+		printf("æˆ‘è¦åŠªåŠ›æ•²ä»£ç %d\n",line);
 	}
 	if (line > 20000)
-		printf("ÄÃµ½ºÃoffer");
+		printf("æ‹¿åˆ°å¥½offer");
 	return 0;
 }
 
