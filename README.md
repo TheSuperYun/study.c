@@ -1,2 +1,2 @@
-# study5/22.c
+# study
 c语言学习
