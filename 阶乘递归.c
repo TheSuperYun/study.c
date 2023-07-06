@@ -14,7 +14,7 @@ int main()
 	
 	int n = 0;
 	scanf_s("%d", &n);
-	printf("%d", jie(n));//jie=�׳�
+	printf("%d", jie(n));//jie=½×³Ë
 	
 	return 0;
 }
