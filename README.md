@@ -1,2 +1,2 @@
 # study
-c语言学习
+c learning records
